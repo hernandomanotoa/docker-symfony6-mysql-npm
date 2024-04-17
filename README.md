@@ -1,0 +1,1 @@
+# docker-symfony6-mysql-npm
