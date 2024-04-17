@@ -6,7 +6,7 @@ into docker container
 
 # installs NVM (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-follow of recomendations of before comand
+\nfollow of recomendations of before comand
 
 # download and install Node.js
 nvm install 20
