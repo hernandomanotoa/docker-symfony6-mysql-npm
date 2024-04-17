@@ -15,3 +15,7 @@ node -v # should print `v20.12.2`
 
 # verifies the right NPM version is in the environment
 npm -v # should print `10.5.0`
+
+# https://symfony.com/doc/current/frontend/encore/bootstrap.html
+
+# https://nodejs.org/en/download/package-manager
