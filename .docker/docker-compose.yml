@@ -43,6 +43,16 @@ services:
             - symfony_app
         env_file:
             - .env.nginx.local
+      # phpMyAdmin Service
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: phpmyadmin_symfony
+        ports:
+            - "3400:80"
+        depends_on:
+            - db
+        networks:
+            - symfony_app
 
 volumes:
     # symfony_app_var:
