@@ -24,7 +24,8 @@ services:
                 TIMEZONE: ${TIMEZONE}
         container_name: app_symfony
         volumes:
-            - ../:/var/www/symfony:cached
+            # - ../curso_formularios/:/var/www/symfony:cached
+            - ../curso_panel/:/var/www/symfony:cached
             # - symfony_app_var:/var/www/symfony/var
             # - symfony_app_vendor:/var/www/symfony/vendor
         networks:
